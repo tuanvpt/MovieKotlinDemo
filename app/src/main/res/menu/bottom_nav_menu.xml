@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/iHome"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_bottom_one" />
+    <item
+        android:id="@+id/iAll"
+        android:icon="@drawable/ic_details"
+        android:title="@string/title_bottom_two" />
+    <item
+        android:id="@+id/iSearch"
+        android:icon="@drawable/ic_search"
+        android:title="@string/title_bottom_three" />
+    <item
+        android:id="@+id/iUpdate"
+        android:icon="@drawable/ic_favorite"
+        android:title="@string/title_bottom_four" />
+
+</menu>
