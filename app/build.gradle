@@ -15,6 +15,11 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        //movie api
+        buildConfigField("String", "API_KEY", "\"63e2a9c698c55e8514bed6801145816a\"")
+        buildConfigField("String", "API_READ_ACCESS_TOKEN", "\"eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2M2UyYTljNjk4YzU1ZTg1MTRiZWQ2ODAxMTQ1ODE2YSIsInN1YiI6IjYxZDdhMGRkZjY3ODdhMDAxYWU3ZTM2MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ELeDDoWctI8PD2OMf6ye9Oycy9WdKCznD7QiZYLIYyc\"")
+
     }
 
     buildTypes {
